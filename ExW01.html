@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Service 1.0</title>
+    <link rel="shortcut icon" href="./Favicon/Favicon (3).png" type="image/png">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        input, select {
+            margin: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./Images/d49cef1e-100f-4ab2-8709-4701f1949529.png" alt="">
+    <h1>Online Services 1.0</h1>
+    <h2>"ชำระค่าสาธารณูปโภคหลากหลายเพื่อความสะดวกของคุณ"</h2>
+    <br><br>
+    รหัสประจำตัวประชาชน <input type="number" style="text-align: center;">
+    <br><br>
+    คำนำหน้า    
+    <input type="radio" name="prefix" id="male" value="male" checked> นาย
+    <input type="radio" name="prefix" id="female" value="female"> นางสาว
+    <input type="radio" name="prefix" id="other" value="other"> นาง
+    <br><br>
+    ชื่อ-สกุล <input type="text">
+    <br><br>
+    ชำระค่าสาธารณูปโภค
+    <input type="checkbox">ประปา <input type="number" name="" id="">
+    <br><br>
+    <input type="checkbox">ไฟฟ้า <input type="number" name="" id="">
+    <br><br>
+    ชำระค่าโทรศัพท์
+    <input type="checkbox">โทรศัพท์บ้าน <input type="number" name="" id="">
+    <br><br>
+    <input type="checkbox">AIS <input type="number" name="" id="">
+    <br><br>
+    <input type="checkbox">DTAC <input type="number" name="" id="">
+    <br><br>
+    <input type="checkbox">TRUE <input type="number" name="" id="">
+    <br><br>
+    ส่วนลดเฉพาะค่าสาธรณูปโภค
+    <select name="" id="">
+        <option value="111" selected>ไม่มีส่วนลด</option>
+        <option value="222">ลด5%</option>
+        <option value="333">ลด10%</option>
+    </select>
+    <br><br>
+    <input type="submit" value="ตกลง">
+    <input type="reset" value="ยกเลิก">
+    <br><br>
+    หมายเหตุ ค่าบริการคิด 15 บาทต่อรายการ โดยคิดเฉพาะชำระค่าโทรศัพท์เท่านั้น
+</body>
+</html>
