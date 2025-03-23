@@ -1,0 +1,20 @@
+#bb{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    height: 40px; 
+}
+
+#cc {
+    text-align: center;
+    font-size: 15px;
+}
